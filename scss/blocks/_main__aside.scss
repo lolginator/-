@@ -1,0 +1,51 @@
+.main__aside{
+    display: flex;
+    flex-direction: column;
+    gap: 725px;
+    padding: 20px 0px 0px 40px;
+
+    svg{
+        height: 64px;
+        width: 168.67px;
+        fill: rgb(252, 252, 252);
+        padding-right: 32px;
+    }
+}
+
+
+.main__aside-foot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.main__aside-nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+    li a{
+        color: inherit;
+        font-size: 18px;
+        font-weight: 600;
+        color: WHITE;
+    }
+}
+
+
+.main__aside-text{
+    p{
+        color: inherit;
+        font-size: 18px;
+        font-weight: 600;
+        color: WHITE;
+    }
+
+    p a{
+        text-decoration: underline;
+        font-weight: 500;
+    }
+}
+
